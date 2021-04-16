@@ -1,6 +1,6 @@
 # If you want to rebuild your own copy, follow below instructions
 # Build this on each type of machine so you have the correct CPU extensions.
-FROM ubuntu:latest		
+FROM debian:jessie		
 		
 WORKDIR /root/		
 RUN apt-get update -qy && \		
